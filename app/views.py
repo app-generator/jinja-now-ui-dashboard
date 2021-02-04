@@ -26,7 +26,6 @@ def index(path):
     except TemplateNotFound:
         return render_template('page-404.html'), 404
 
-# Helper - Extract current page name from request 
 def get_segment( request ): 
 
     try:
@@ -39,4 +38,4 @@ def get_segment( request ):
         return segment    
 
     except:
-        return None   
+        return None  

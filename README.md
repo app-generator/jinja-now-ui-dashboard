@@ -1,26 +1,22 @@
-# [Jinja Template](https://github.com/app-generator/jinja-template) - Now UI Dashboard
+# [Jinja Template](https://appseed.us/jinja-template) Now UI
 
-> Template Theme provided by [AppSeed](https://appseed.us) - Features:
+> Template [boilerplate code](https://appseed.us/boilerplate-code) used by [AppSeed](https://appseed.us) to generate simple starters coded in [Flask](https://palletsprojects.com/p/flask/) - Features:
 
 - UI Kit: **Now UI Dashboard** (Free Version) by **Creative-Tim**
 - Render Engine: Flask / [Jinja2](https://jinja.palletsprojects.com/)
 - Deployment scripts: Docker, Gunicorn/Nginx, HEROKU
-- Support via **Github** (issues tracker) and  [Discord](https://discord.gg/fZC6hup).
+- Support via **Github** (issues tracker) and [Discord](https://discord.gg/fZC6hup).
+
+<br />
 
 > Links
 
-- [Jinja Now UI Dashboard](https://jinja-template-now-ui-dashboard.appseed.us/) - LIVE Demo
-- [Jinja Template](https://github.com/app-generator/jinja-template) - A curated list with Jinja projects that use this template
+- [Jinja Now UI Dashboard](https://jinja-now-ui-dashboard.appseed-srv1.com) - starter in action
+- More [Jinja Templates](https://appseed.us/jinja-template) provided by AppSeed
 
 <br />
 
-## UI Kit - Now UI Dashboard
-
-Now UI Dashboard is a responsive Bootstrap 4 kit provided for free by Invision and Creative Tim. It combines colors that are easy on the eye, spacious cards, beautiful typography, and graphics. Now UI Dashboard comes packed with all plugins that you might need inside a project and documentation on how to get started. It is light and easy to use, and also very powerful.
-
-<br />
-
-![Jinja Template - Starter provided by AppSeed.](https://raw.githubusercontent.com/app-generator/jinja-template-now-ui-dashboard/master/media/jinja-template-now-ui-dashboard-screen.png)
+![Jinja Template - Now UI Dashboard, thumbnail image.](https://raw.githubusercontent.com/app-generator/jinja-now-ui-dashboard/master/media/jinja-template-now-ui-dashboard-screen.png)
 
 <br />
 
@@ -28,8 +24,8 @@ Now UI Dashboard is a responsive Bootstrap 4 kit provided for free by Invision a
 
 ```bash
 $ # Clone the sources
-$ git clone https://github.com/app-generator/jinja-template-now-ui-dashboard.git
-$ cd jinja-template-now-ui-dashboard
+$ git clone https://github.com/app-generator/jinja-now-ui-dashboard.git
+$ cd jinja-now-ui-dashboard
 $
 $ # Virtualenv modules installation (Unix based systems)
 $ virtualenv env
@@ -106,7 +102,7 @@ The project has a simple structure, represented as bellow:
 
 ## Deployment
 
-The project comes with a basic configuration for [Docker](https://www.docker.com/), [HEROKU](https://www.heroku.com/), [Gunicorn](https://gunicorn.org/), and [Waitress](https://docs.pylonsproject.org/projects/waitress/en/stable/).
+The project comes with a basic configuration for [Docker](https://www.docker.com/), [Gunicorn](https://gunicorn.org/), and [Waitress](https://docs.pylonsproject.org/projects/waitress/en/stable/).
 
 <br />
 
@@ -118,8 +114,8 @@ The steps to start the template using Docker:
 > Get the code
 
 ```bash
-$ git clone https://github.com/app-generator/jinja-template-now-ui-dashboard.git
-$ cd jinja-template-now-ui-dashboard
+$ git clone https://github.com/app-generator/jinja-now-ui-dashboard.git
+$ cd jinja-now-ui-dashboard
 ```
 
 > Start the app in Docker
@@ -129,41 +125,6 @@ $ sudo docker-compose pull && sudo docker-compose build && sudo docker-compose u
 ```
 
 Visit `http://localhost:5005` in your browser. The app should be up & running.
-
-<br />
-
-### [Heroku](https://www.heroku.com/)
----
-
-Steps to deploy on **Heroku**
-
-- [Create a FREE account](https://signup.heroku.com/) on Heroku platform
-- [Install the Heroku CLI](https://devcenter.heroku.com/articles/getting-started-with-python#set-up) that match your OS: Mac, Unix or Windows
-- Open a terminal window and authenticate via `heroku login` command
-- Clone the sources and push the project for LIVE deployment
-
-```bash
-$ # Clone the source code:
-$ git clone https://github.com/app-generator/jinja-template-now-ui-dashboard.git
-$ cd jinja-template-now-ui-dashboard
-$
-$ # Check Heroku CLI is installed
-$ heroku -v
-heroku/7.25.0 win32-x64 node-v12.13.0 # <-- All good
-$
-$ # Check Heroku CLI is installed
-$ heroku login
-$ # this commaond will open a browser window - click the login button (in browser)
-$
-$ # Create the Heroku project
-$ heroku create
-$
-$ # Trigger the LIVE deploy
-$ git push heroku master
-$
-$ # Open the LIVE app in browser
-$ heroku open
-```
 
 <br />
 
@@ -216,4 +177,4 @@ Visit `http://localhost:8001` in your browser. The app should be up & running.
 <br />
 
 ---
-[Jinja Now UI Dashboard](https://jinja-template-now-ui-dashboard.appseed.us/) - Provided by **AppSeed** [Web App Generator](https://appseed.us/app-generator).
+[Jinja Template](https://github.com/app-generator/jinja-template) Now UI Dashboard - Provided by **AppSeed** [App Generator](https://appseed.us/app-generator).

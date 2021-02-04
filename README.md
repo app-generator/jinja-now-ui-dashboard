@@ -16,7 +16,7 @@
 
 <br />
 
-![Jinja Template - Now UI Dashboard, thumbnail image.](https://raw.githubusercontent.com/app-generator/jinja-now-ui-dashboard/master/media/jinja-template-now-ui-dashboard-screen.png)
+![Jinja Template - Now UI Dashboard, thumbnail image.](https://raw.githubusercontent.com/app-generator/jinja-now-ui-dashboard/master/media/jinja-now-ui-dashboard-screen.png)
 
 <br />
 
